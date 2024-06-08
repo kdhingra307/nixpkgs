@@ -28420,6 +28420,8 @@ with pkgs;
   fg-virgil = callPackage ../data/fonts/fg-virgil { };
 
   fixedsys-excelsior = callPackage ../data/fonts/fixedsys-excelsior { };
+  
+  flytectl = callPackage ../development/tools/flytectl { };
 
   graphs = callPackage ../data/misc/graphs { };
 
