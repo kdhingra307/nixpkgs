@@ -28421,8 +28421,6 @@ with pkgs;
 
   fixedsys-excelsior = callPackage ../data/fonts/fixedsys-excelsior { };
   
-  flytectl = callPackage ../development/tools/flytectl { };
-
   graphs = callPackage ../data/misc/graphs { };
 
   emacs-all-the-icons-fonts = callPackage ../data/fonts/emacs-all-the-icons-fonts { };
