@@ -51,7 +51,9 @@ self: super: {
     pgvecto-rs = super.callPackage ./pgvecto-rs { };
 
     pgvector = super.callPackage ./pgvector.nix { };
-
+    
+    pgvectorscale = super.callPackage ./pgvectorscale.nix { };
+    
     plpgsql_check = super.callPackage ./plpgsql_check.nix { };
 
     plr = super.callPackage ./plr.nix { };
